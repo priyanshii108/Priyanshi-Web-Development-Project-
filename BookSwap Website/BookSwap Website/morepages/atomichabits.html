@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1><a href="/index.html">📚BookSwap</a></h1>
+        </div>
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/morepages/about.html">About</a>
+            <a href="/morepages/contact.html">Contact</a>
+            <a href="/login.html" id="login" target="_blank">Login</a>
+        </nav>
+    </header>
+    <header class="header2">
+        <nav class="navbar2">
+            <details class="dropdown">
+                <summary>Shop by Category</summary>
+                <ul class="dropdown-menu">
+                    <li><a href="#best-sellers">Best Sellers</a></li>
+                    <li><a href="#fiction">Fiction</a></li>
+                    <li><a href="#non-fiction">Non-Fiction</a></li>
+                    <li><a href="#Academics">Academics</a></li>
+                </ul>
+            </details>
+            <a href="" onclick="alert('No books to display.')">39 store</a>
+            <a href="" onclick="alert('No books to display.')">69 store</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for books, authors, or genres..." class="search-input">
+                <button class="search-btn">Search</button>
+                <a href="#" title="basket icons" onclick="alert('No Itmes in the cart!')"><img src="/Images/shopping-bag.png" alt="cart"></a>
+            </div>
+        </nav>
+    </header>
+    <main id="AHbody">
+        <div class="container">
+            <div class="book-cover">
+                <img src="/Images/Atomic habits.jpg" alt="Book Cover">
+                <br><br><br>
+                <div class="buybutton">
+                    <div class="button-group">
+                        <a href="#" class="button buy">Buy</a>
+                        <a href="#" class="button sell" id="buttonATC" onclick="alert('Item added to cart!')">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="book-details">
+                <h1 class="book-title">Atomic Habits: Tiny Changes, Remarkable Results</h1>
+                <p class="book-author">James Clear (Author, Narrator), Penguin Audio (Publisher)</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <br><br>
+                    <span class="rating-count">99,262 ratings</span><br>
+                    <div class="description">
+                        <p><strong>THE PHENOMENAL INTERNATIONAL BESTSELLER - 1 MILLION COPIES SOLD.</strong></p>
+                        <br>
+                        <p><strong>Transform your life with tiny changes in behaviour, starting now.</strong></p>
+                        <p>People think that when you want to change your life, you need to think big. But
+                            world-renowned habits expert James Clear has discovered another way. He knows that real
+                            change comes from the compound effect of hundreds of small decisions: doing two push-ups a
+                            day, waking up five minutes early, or holding a single short phone call.</p>
+                        <br>
+                        <p><strong>He calls them Atomic Habits.</strong></p>
+                        <p>In this ground-breaking book, Clear reveals exactly how these minuscule changes can grow into
+                            such life-altering outcomes.</p>
+                        <br>
+                        <p><strong>A NEW YORK TIMES AND SUNDAY TIMES BESTSELLER</strong></p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2018 James Clear (P)2018 Penguin Audio</p>
+            </div>
+        </div>
+        <br>
+    </main>
+</body>
+
+</html>

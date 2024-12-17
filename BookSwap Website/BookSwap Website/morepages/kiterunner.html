@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1><a href="/index.html">📚BookSwap</a></h1>
+        </div>
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/morepages/about.html">About</a>
+            <a href="/morepages/contact.html">Contact</a>
+            <a href="/login.html" id="login" target="_blank">Login</a>
+        </nav>
+    </header>
+    <header class="header2">
+        <nav class="navbar2">
+            <details class="dropdown">
+                <summary>Shop by Category</summary>
+                <ul class="dropdown-menu">
+                    <li><a href="#best-sellers">Best Sellers</a></li>
+                    <li><a href="#fiction">Fiction</a></li>
+                    <li><a href="#non-fiction">Non-Fiction</a></li>
+                    <li><a href="#Academics">Academics</a></li>
+                </ul>
+            </details>
+            <a href="./morepages/hundred.html">39 store</a>
+            <a href="./morepages/twohundred.html">69 store</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for books, authors, or genres..." class="search-input">
+                <button class="search-btn">Search</button>
+                <a href="#" title="basket icons" onclick="alert('No Items are added!')"><img src="/Images/shopping-bag.png" alt="cart"></a>
+            </div>
+        </nav>
+    </header>
+    <main id="AHbody">
+        <div class="container">
+            <div class="book-cover">
+                <img src="/Images/kite runner.jpg" alt="Book Cover">
+                <br><br><br>
+                <div class="buybutton">
+                    <div class="button-group">
+                        <a href="#" class="button buy">Buy</a>
+                        <a href="#" class="button sell" id="buttonATC" onclick="alert('Item added to the cart!')">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="book-details">
+                <h1 class="book-title">The Kite Runner</h1>
+                <p class="book-author">Khaled Hosseini (Author), Riverhead Books (Publisher)</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <br><br>
+                    <span class="rating-count">135,262 ratings</span><br>
+                    <div class="description">
+                        <p><strong>THE PHENOMENAL INTERNATIONAL BESTSELLER </strong></p>
+                        <br>
+                        <p>The Kite Runner by Khaled Hosseini is a powerful and emotional novel that explores themes of friendship, betrayal, redemption, and the enduring impact of the past. Set against the backdrop of Afghanistan’s tumultuous history, the story follows Amir, a young boy from a wealthy family, and his close bond with Hassan, the son of his father's servant.
+
+                            Their relationship is tested by a harrowing betrayal, leading Amir on a journey of guilt and self-discovery that spans decades and continents. With vivid storytelling and complex characters, The Kite Runner delves into the struggles of identity, the power of forgiveness, and the sacrifices we make for love and redemption.
+                            
+                            Perfect for readers who enjoy thought-provoking and deeply human stories, this modern classic has captivated millions worldwide.</p>
+                        <br>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2003 Khaled Hosseini (P)2003 Riverhead Books</p>
+            </div>
+        </div>
+        <br>
+    </main>
+</body>
+
+</html>

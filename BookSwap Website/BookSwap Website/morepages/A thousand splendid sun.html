@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1><a href="/index.html">📚BookSwap</a></h1>
+        </div>
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/morepages/about.html">About</a>
+            <a href="/morepages/contact.html">Contact</a>
+            <a href="/login.html" id="login" target="_blank">Login</a>
+        </nav>
+    </header>
+    <header class="header2">
+        <nav class="navbar2">
+            <details class="dropdown">
+                <summary>Shop by Category</summary>
+                <ul class="dropdown-menu">
+                    <li><a href="#best-sellers">Best Sellers</a></li>
+                    <li><a href="#fiction">Fiction</a></li>
+                    <li><a href="#non-fiction">Non-Fiction</a></li>
+                    <li><a href="#Academics">Academics</a></li>
+                </ul>
+            </details>
+            <a href="" onclick="alert('No books to display.')">39 store</a>
+            <a href="" onclick="alert('No books to display.')">69 store</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for books, authors, or genres..." class="search-input">
+                <button class="search-btn">Search</button>
+                <a href="#" title="basket icons" onclick="alert('No Items in the cart!')"><img src="/Images/shopping-bag.png" alt="cart"></a>
+            </div>
+        </nav>
+    </header>
+    <main id="AHbody">
+        <div class="container">
+            <div class="book-cover">
+                <img src="/Images/A-Thousand-Splendid-Suns-scaled.jpg" alt="Book Cover">
+                <br><br><br>
+                <div class="buybutton">
+                    <div class="button-group">
+                        <a href="#" class="button buy">Buy</a>
+                        <a href="#" class="button sell" id="buttonATC" onclick="alert('Item added to cart!')">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="book-details">
+                <h1 class="book-title">A Thousand Splendid Suns</h1>
+                <p class="book-author">Khaled Hosseini (Author), Riverhead Books, (Publisher)</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <br><br>
+                    <span class="rating-count">39,892 ratings</span><br>
+                    <div class="description">
+                        <p><strong>BESTSELLER</strong></p>
+                        <br>
+                        <p>A Thousand Splendid Suns by Khaled Hosseini is a deeply moving and beautifully written novel that chronicles the intertwined lives of two Afghan women, Mariam and Laila. Set against the backdrop of Afghanistan's political upheavals over three decades, the story explores themes of love, sacrifice, resilience, and the unbreakable bond between women.
+                            <br>
+                            Through Mariam and Laila's struggles with war, loss, and an oppressive marriage, the novel highlights the strength of the human spirit and the enduring hope for a better future. Khaled Hosseini masterfully brings the culture and history of Afghanistan to life, delivering a tale that is as heartbreaking as it is uplifting.
+                            <br>
+                            Perfect for readers who enjoy emotionally rich and thought-provoking stories, this international bestseller is a testament to the power of love and the resilience of women.</p>
+                        <br>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2007 Khaled Hosseini (P)2007 Riverhead Books,</p>
+            </div>
+        </div>
+        <br>
+    </main>
+</body>
+
+</html>

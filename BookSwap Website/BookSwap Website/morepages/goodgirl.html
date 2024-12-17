@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1><a href="/index.html">📚BookSwap</a></h1>
+        </div>
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/morepages/about.html">About</a>
+            <a href="/morepages/contact.html">Contact</a>
+            <a href="/login.html" id="login" target="_blank">Login</a>
+        </nav>
+    </header>
+    <header class="header2">
+        <nav class="navbar2">
+            <details class="dropdown">
+                <summary>Shop by Category</summary>
+                <ul class="dropdown-menu">
+                    <li><a href="#best-sellers">Best Sellers</a></li>
+                    <li><a href="#fiction">Fiction</a></li>
+                    <li><a href="#non-fiction">Non-Fiction</a></li>
+                    <li><a href="#Academics">Academics</a></li>
+                </ul>
+            </details>
+            <a href=""onclick="alert('No books to display.')">39 store</a>
+            <a href="" onclick="alert('No books to display.')">69 store</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for books, authors, or genres..." class="search-input">
+                <button class="search-btn">Search</button>
+                <a href="#" title="basket icons" onclick="alert('No Items are in the cart.')"><img src="/Images/shopping-bag.png" alt="cart"></a>
+            </div>
+        </nav>
+    </header>
+    <main id="AHbody">
+        <div class="container">
+            <div class="book-cover">
+                <img src="/Images/good girl guide.jpeg" alt="Book Cover" style="height: 750px;">
+                <br><br><br>
+                <div class="buybutton">
+                    <div class="button-group">
+                        <a href="#" class="button buy">Buy</a>
+                        <a href="#" class="button sell" id="buttonATC" onclick="alert('Item added to cart!')">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="book-details">
+                <h1 class="book-title">The Good Girl's Guide to Murder</h1>
+                <p class="book-author"> Holly Jackson (Author), Delacorte Press (Publisher)</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <br><br>
+                    <span class="rating-count">49,222 ratings</span><br>
+                    <div class="description">
+                        <p><strong> BESTSELLER</strong></p>
+                        <br>
+                        <p>A debut YA crime thriller as addictive as Serial and as page-turning as One of Us Is Lying. A cold-case thriller written in the original format of a college report - complete with interviews, logs and murder maps. A deftly-woven cold-case plot with themes of race, privilege, family and justice at its heart. An incredibly commercial, thrilling and darkly humorous debut voice in YA crime fiction from a young author who is One To Watch. The case is closed. Five years ago, schoolgirl Andie Bell was murdered by Sal Singh. The police know he did it. Everyone in town knows he did it. Almost everyone. Having grown up in the small town that was consumed by the crime, Pippa Fitz-Amobi chooses the case as the topic for her final project. But when Pip starts uncovering secrets that someone in town desperately wants to stay hidden, what starts out as a project begins to become Pip?s dangerous reality . . . Perfect for fans of One of Us Is Lying, We Were Liars, Gone Girl, Pretty Little Liars and Riverdale.</p>
+                        <br>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2019 Holly Jackson (P)2019 Delacorte Press</p>
+            </div>
+        </div>
+        <br>
+    </main>
+</body>
+
+</html>

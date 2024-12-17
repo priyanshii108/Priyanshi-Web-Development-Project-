@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1><a href="/index.html">📚BookSwap</a></h1>
+        </div>
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/morepages/about.html">About</a>
+            <a href="/morepages/contact.html">Contact</a>
+            <a href="/login.html" id="login" target="_blank">Login</a>
+        </nav>
+    </header>
+    <header class="header2">
+        <nav class="navbar2">
+            <details class="dropdown">
+                <summary>Shop by Category</summary>
+                <ul class="dropdown-menu">
+                    <li><a href="#best-sellers">Best Sellers</a></li>
+                    <li><a href="#fiction">Fiction</a></li>
+                    <li><a href="#non-fiction">Non-Fiction</a></li>
+                    <li><a href="#Academics">Academics</a></li>
+                </ul>
+            </details>
+            <a href="./morepages/hundred.html">39 store</a>
+            <a href="./morepages/twohundred.html">69 store</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for books, authors, or genres..." class="search-input">
+                <button class="search-btn">Search</button>
+                <a href="#" title="basket icons" onclick="alert('No Items are added!')"><img src="/Images/shopping-bag.png" alt="cart"></a>
+            </div>
+        </nav>
+    </header>
+    <main id="AHbody">
+        <div class="container">
+            <div class="book-cover">
+                <img src="/Images/whiteNight.png" alt="Book Cover">
+                <br><br><br>
+                <div class="buybutton">
+                    <div class="button-group">
+                        <a href="#" class="button buy">Buy</a>
+                        <a href="#" class="button sell" id="buttonATC" onclick="alert('Item added to cart!')">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="book-details">
+                <h1 class="book-title">White Nights</h1>
+                <p class="book-author">Fyodor Dostoyevsky(Author)</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <br><br>
+                    <span class="rating-count">48,262 ratings</span><br>
+                    <div class="description">
+                        <p><strong> BESTSELLER - 1 MILLION COPIES SOLD.</strong></p>
+                        <br>
+                        <p>White Nights by Fyodor Dostoevsky is a deeply emotional and introspective short story first published in 1848. Set against the enchanting backdrop of Saint Petersburg during the city's "white nights"—a phenomenon of near-continuous daylight in summer—it explores themes of love, loneliness, and the complexity of human emotions.
+
+                            The story is narrated by a nameless protagonist, a dreamer who spends his days lost in his imagination and his nights wandering the city's streets. During one such walk, he encounters Nastenka, a young woman who shares his solitude. Over the course of four nights, the two form an intimate bond as they share their life stories, hopes, and dreams. The dreamer becomes infatuated with Nastenka, only to discover she is in love with another man and is waiting for his return.
+                            
+                            The narrative masterfully juxtaposes the protagonist’s idealistic fantasies with the harsh realities of unreciprocated love, leaving readers with a poignant mix of joy, heartbreak, and nostalgia. Through its vivid imagery and profound psychological insight, White Nights captures the universal longing for connection and the fleeting nature of moments that define our lives.</p>
+                        <br>
+
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 1848 Fyodor Dostoyevsky</p>
+            </div>
+        </div>
+        <br>
+    </main>
+</body>
+
+</html>
